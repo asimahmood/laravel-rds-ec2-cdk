@@ -24,10 +24,7 @@ npm install
 Ensure a key pair named `ec2-key-pair` exists in your AWS region.
 
 ### 4. Deploy the stack
-```bash
-cdk deploy \
-  --outputs-file ./cdk-outputs.json
-```
+<pre> ### ✅ Example: CDK Deploy Output ```bash ✨ Synthesis time: 5.2s Deploying LaravelRdsEc2Stack... ✅ LaravelRdsEc2Stack Outputs: LaravelRdsEc2Stack.EC2InstancePublicIP = 3.112.45.221 LaravelRdsEc2Stack.RDSConnectionEndpoint = laravel-db.cfkxv12345abc.us-east-1.rds.amazonaws.com ``` </pre>
 
 ### 5. Connect to EC2
 ```bash

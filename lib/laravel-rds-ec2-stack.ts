@@ -7,8 +7,8 @@ export class LaravelRdsEc2Stack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const vpc = new ec2.Vpc(this, 'LaravelVpc', {
-      maxAzs: 2
+    const vpc = ec2.Vpc.fromLookup(this, 'ExistingVPC', {
+      isDefault: true
     });
 
     const securityGroup = new ec2.SecurityGroup(this, 'LaravelSG', {

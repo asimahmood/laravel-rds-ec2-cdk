@@ -62,7 +62,10 @@ LaravelRdsEc2Stack: deployed successfully
 Outputs:
 LaravelRdsEc2Stack.EC2InstancePublicIP = 3.112.45.221
 LaravelRdsEc2Stack.RDSConnectionEndpoint = laravel-db.cfkxv12345abc.us-east-1.rds.amazonaws.com
+```
+### Architecture Diagram
 
+![Architecture](./architecture.png)
 
 ## 📜 License
 MIT

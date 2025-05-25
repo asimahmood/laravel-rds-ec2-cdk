@@ -11,7 +11,7 @@ This project provisions the infrastructure for a Laravel application using AWS C
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/laravel-rds-ec2-cdk.git
+git clone https://github.com/asimmahmood/laravel-rds-ec2-cdk.git
 cd laravel-rds-ec2-cdk
 ```
 

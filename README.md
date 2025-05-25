@@ -52,7 +52,17 @@ cdk destroy
 - You can extend this to install Laravel via UserData or Ansible
 
 ## 📸 Demo Output
-*(Add terminal output + architecture diagram here)*
+### CDK Deployment Terminal Output (Example)
+```bash
+Synthesis time: 5.2s
+
+Deploying LaravelRdsEc2Stack...
+LaravelRdsEc2Stack: deployed successfully
+
+Outputs:
+LaravelRdsEc2Stack.EC2InstancePublicIP = 3.112.45.221
+LaravelRdsEc2Stack.RDSConnectionEndpoint = laravel-db.cfkxv12345abc.us-east-1.rds.amazonaws.com
+
 
 ## 📜 License
 MIT
